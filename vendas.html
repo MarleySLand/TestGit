@@ -5,14 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vendas - Venda e compre.</title>
 
-     
+     <style>
+        .box {
+            margin: 0 auto;
+            width: 500px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .vendas {
+            padding: 10px;
+            background-color: darkcyan;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+            height: 100px;
+        }
+
+        .buttons {
+            border-top: 2px solid orangered;
+            padding: 13px;
+            background-color: burlywood;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+        p {
+            color: aqua;
+        }
+
+        button {
+            background-color: orange;
+            line-height: 20px;
+            border: 1px solid red;
+            border-radius: 5px;
+            color: red;
+            padding: 0;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: red;
+            border: orange 1px solid;
+        }
+        
+        hr {
+            
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 6px;
+            color: red;
+        }
+
+        a:hover {
+            color: orange;
+        }
+
+     </style>
 
 </head>
 <body>
-    <div>
+    <div class="box">
+        
+        <div class="vendas">
         <h2>Vendas</h2>
         <p>As vendas são equivalentes a R$5000,00.</p>
-        <button>Click to buy</button>
+        </div>
+
+        <div class="buttons">
+            <button><a href="">Click here to buy</a></button>
+            <button><a href="index.html">Click to go back</a></button>
+        </div>
     </div>
 </body>
 </html>
